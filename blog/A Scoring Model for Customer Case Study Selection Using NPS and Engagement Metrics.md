@@ -30,11 +30,39 @@ Scaled values 0–100, applied weightings:
 - 20%: Tenure
 
 ### Step 3: Score Calculation
-Final SQL formula:
+Calculated a composite score by applying weights to each normalized metric:
+- Combined survey scores, engagement rates, support history, and tenure
+- Higher scores indicated better candidates for marketing use
+- Created a master table with breakdowns by customer
 
-```sql
-score = 
-   0.3 * normalized_nps + 
-   0.3 * engagement_score + 
-   0.2 * (100 - support_score) + 
-   0.2 * tenure_score
+### Step 4: Schedule Monthly Refresh
+- Pulled updated data from all relevant sources on the first of each month  
+- Recalculated NPS, engagement, support, and tenure scores for each customer  
+- Ranked customers based on final weighted scores  
+- Exported the top-scoring customers into a shared file for Marketing and CS teams  
+
+---
+
+## 🧠 Results
+
+| Metric                    | Value         |
+|---------------------------|---------------|
+| Shortlisted candidates    | 12 per cycle  |
+| Monthly scoring time      | ~5 minutes    |
+| Selection time saved      | ~80%          |
+
+---
+
+## ✨ Key Takeaways
+- Scoring models add structure and repeatability to customer selection  
+- Aligns teams with consistent data for outbound campaigns  
+- Encourages high-ROI outreach based on engagement—not guesswork  
+
+---
+
+## 📁 What’s Next
+- Add opt-in flag (PR consent) into scoring  
+- Track historical score trends for retention signals  
+- Build dashboard view for stakeholders  
+
+---
