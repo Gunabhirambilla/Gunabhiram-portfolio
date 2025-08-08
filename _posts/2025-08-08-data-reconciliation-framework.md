@@ -1,3 +1,8 @@
+---
+layout: post
+title: "Building a Reconciliation Framework Across CRM, Billing, and Operational Systems"
+date: 2025-08-08
+---
 # Building a Reconciliation Framework Across CRM, Billing, and Operational Systems
 
 ## 📌 Background
