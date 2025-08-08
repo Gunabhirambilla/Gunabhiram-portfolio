@@ -1,7 +1,7 @@
-title: "Gunabhiram Billa"
-description: "Portfolio of Gunabhiram Billa – Data Analyst | Aspiring Data Engineer"
+title: Gunabhiram Billa
+description: Personal data portfolio
 theme: minima
-show_excerpts: true
+markdown: kramdown
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
