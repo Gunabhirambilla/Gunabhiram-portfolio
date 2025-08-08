@@ -1,4 +1,3 @@
-# Gunabhiram Billa  
 **Data Analyst | Aspiring Data Engineer | New York City**  
 [LinkedIn](https://www.linkedin.com/in/gunabhiram/) • [GitHub](https://github.com/gunabhiram)
 
