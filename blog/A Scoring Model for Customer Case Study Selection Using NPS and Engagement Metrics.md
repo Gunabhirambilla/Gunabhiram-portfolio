@@ -60,6 +60,8 @@ Exported the top-ranked customers into a final table with scores broken down:
 | Metro Wellness    | 88.7   | 92  | 85     | 88      | 90     |
 | Core Primary Care | 75.4   | 70  | 80     | 75      | 76     |
 +-------------------+--------+-----+--------+---------+--------+
+
+
 4. Monthly Refresh
 Set up a process to refresh scores monthly by:
 
