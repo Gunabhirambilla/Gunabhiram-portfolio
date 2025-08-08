@@ -1,3 +1,9 @@
+---
+layout: post
+title: "How I Automated My Reporting Using Snowflake + Python + Word"
+date: 2025-08-08
+---
+
 # How I Automated My Reporting Using Snowflake + Python + Word
 
 ## 📌 Background
