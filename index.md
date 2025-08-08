@@ -96,6 +96,7 @@ I’m a data-driven problem solver passionate about turning raw data into action
 - [{{ post.title }}]({{ post.url }})
 {% endfor %}
 
+
 ---
 
 ## 🌍 Location & Goals
