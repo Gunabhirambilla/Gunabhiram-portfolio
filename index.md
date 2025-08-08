@@ -13,7 +13,7 @@ I'm a data-driven problem solver passionate about turning raw data into actionab
 
 ### Languages & Tools
 - **SQL**: Advanced joins, window functions, CTEs, optimization  
-- **Python** (in progress): Data wrangling, PDF/Word automation, scheduling scripts  
+- **Python**: Data wrangling, PDF/Word automation, scheduling scripts  
 - **Excel/Word Automation**: Charts, text updates, Word-to-PDF pipelines  
 
 ### Platforms & Databases
