@@ -50,7 +50,7 @@ score =
    0.2 * tenure_score
 Note: Lower support_issue_score = fewer issues = higher adjusted score
 
-3. Output Generation
+### 3. Output Generation
 Exported the top-ranked customers into a final table with scores broken down:
 
 +-------------------+--------+-----+--------+---------+--------+
@@ -62,7 +62,7 @@ Exported the top-ranked customers into a final table with scores broken down:
 +-------------------+--------+-----+--------+---------+--------+
 
 
-4. Monthly Refresh
+### 4. Monthly Refresh
 Set up a process to refresh scores monthly by:
 
 Pulling data from production systems
@@ -73,7 +73,9 @@ Highlighting customers with increasing or declining scores
 
 Exporting to CSV / dashboard for marketing and CS teams
 
-🧠 Benefits
+---
+
+## Benefits
 Objective & Repeatable — Removes guesswork
 
 Cross-Team Alignment — Shared visibility for Marketing, CS, Product
