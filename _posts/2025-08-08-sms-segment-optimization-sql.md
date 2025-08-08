@@ -1,3 +1,9 @@
+---
+layout: post
+title: "Reducing SMS Message Segments to Save $$$ — A SQL Optimization Story"
+date: 2025-08-08
+---
+
 # Reducing SMS Message Segments to Save $$$ — A SQL Optimization Story
 
 ## 📌 Background
