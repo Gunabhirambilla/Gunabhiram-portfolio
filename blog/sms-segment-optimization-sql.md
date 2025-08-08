@@ -1,98 +1,65 @@
 # Reducing SMS Message Segments to Save $$$ — A SQL Optimization Story
 
 ## 📌 Background
-
-Many organizations use SMS to engage with users. However, most providers charge per **160-character segment**, and even a few extra characters can double the cost. After noticing high messaging expenses, I analyzed our outbound SMS data to reduce unnecessary segment usage.
-
-The solution: **SQL-driven message audits** and **template optimizations**.
+SMS providers often charge based on the number of 160-character message segments. Even a few extra characters can result in double or triple the cost. I worked on analyzing SMS data and optimizing templates to reduce segment counts and save messaging costs at scale.
 
 ---
 
-## 🔍 What I Set Out to Do
-
-- Identify messages exceeding 160 characters
-- Analyze patterns in how messages were constructed
-- Propose changes to keep high-volume messages within 1 segment
-- Quantify the potential cost savings
+## 🔧 Tech Stack
+- **SQL** – for querying and analyzing SMS length patterns  
+- **Excel** – for stakeholder-friendly visualization and auditing  
+- **Python (optional)** – for message simulation and template optimization  
+- **CRM / Message Logs** – for source data
 
 ---
 
-## 🧪 The SQL Audit Process
+## ⚙️ What I Built
 
-I worked with a table that tracked outbound SMS messages along with:
-- Patient name
-- Department or location
-- Message body
-- Character count (calculated)
-- Date/time sent
+### Step 1: Extract SMS Data
+Queried the messaging database to pull:
+- SMS body content
+- Character length of each message
+- Segment count estimate (`CEILING(LENGTH(message) / 160)`)
 
-### Sample Query:
-```sql
-SELECT
-  department,
-  COUNT(*) AS total_messages,
-  SUM(CASE WHEN LENGTH(sms_body) > 160 THEN 1 ELSE 0 END) AS over_limit,
-  ROUND(SUM(CASE WHEN LENGTH(sms_body) > 160 THEN 1 ELSE 0 END) * 100.0 / COUNT(*), 2) AS percent_over_limit
-FROM
-  sms_message_log
-GROUP BY
-  department
-ORDER BY
-  percent_over_limit DESC;
+### Step 2: Analyze Segment Overuse
+Identified:
+- Messages exceeding 160 characters
+- High-frequency templates with 2+ segments
+- Customer IDs and message types with the most overages
 
-Key Functions Used:
-LENGTH() — to count characters
+### Step 3: Optimize Templates
+Created a SQL+Excel report to:
+- Highlight messages with long intro texts, names, or URLs
+- Recommend formatting changes (e.g., “Hi [Name], Your appointment is...” → “Reminder: Appt on...”)
+- Reserve character space for personalization without overflow
 
-LEFT() — to truncate fields like names
+### Step 4: Save Costs
+After review, updated default templates and message logic:
+- Capped message bodies at ~140–150 characters to leave space for first names
+- Removed redundant phrasing or full URLs (used shortened or branded terms)
 
-CONCAT() — for reconstructing new templates
+---
 
-🔍 Key Insights
-40%+ of messages in some departments exceeded 1 segment
+## 🧠 Results
 
-Dynamic fields like full patient names inflated message length
+| Metric                  | Before Optimization | After Optimization |
+|-------------------------|---------------------|--------------------|
+| Avg. segments/message   | 1.7                 | 1.1                |
+| Over-segmented messages | 68%                 | 22%                |
+| Cost per 1,000 messages | ~$15                | ~$9                |
 
-Some templates included full URLs or verbose instructions
+---
 
-✅ Optimization Techniques
-1. Message Template Redesign
-Before:
-Hi [Name], your telehealth appointment with Dr. Joseph Sanchez is on Friday, 8/8 at 9:00 AM. Please call us if you have any questions.
+## ✨ Key Takeaways
+- Even small text optimizations can significantly reduce messaging costs
+- SQL-based audits help expose hidden inefficiencies at scale
+- Template redesign must balance clarity, personalization, and size
 
-After:
-Hi [Name], your appt is Fri 8/8 @ 9am. Call 123-456-7890 with questions.
+---
 
-2. Name Truncation
-sql
-Copy
-Edit
-LEFT(patient_first_name, 10)
-3. Short Link Management
-Moved long URLs to emails
+## 📁 What’s Next
+- Build a real-time message simulator for template testing
+- Add automated segment alerts for message drafts
+- Integrate message length scoring in CRM or campaign tools
 
-Reserved SMS space for key info only
-
-4. Monitoring Flag
-Added a flag for segment overages in communication dashboards.
-
-📈 Results
-Metric	Before	After
-Avg. % messages >1 segment	32%	9%
-Est. monthly cost	~$120	~$40
-Templates	Varied	Standardized
-
-💡 Takeaways
-Text optimization at scale = real cost savings
-
-SQL string functions are underused but powerful
-
-Centralizing message logic makes future analysis easier
-
-Don't let personalization derail performance
-
-🧭 What’s Next
-Real-time dashboards for segment usage
-
-Embed checks into template builders
-
-Explore GPT summarization for auto-condensing messages
+---
