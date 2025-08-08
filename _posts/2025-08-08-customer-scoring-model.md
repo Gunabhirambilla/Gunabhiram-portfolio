@@ -1,3 +1,9 @@
+---
+layout: post
+title: "A Scoring Model for Customer Case Study Selection Using NPS and Engagement Metrics"
+date: 2025-08-08
+---
+
 # A Scoring Model for Customer Case Study Selection Using NPS and Engagement Metrics
 
 ## 📌 Background
