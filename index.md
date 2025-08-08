@@ -1,4 +1,5 @@
 # Gunabhiram Billa
+
 **Data Analyst | Aspiring Data Engineer | New York City**  
 [LinkedIn](https://www.linkedin.com/in/gunabhiram/) • [GitHub](https://github.com/gunabhiram)
 
@@ -41,7 +42,7 @@ I'm a data-driven problem solver passionate about turning raw data into actionab
 
 ### 2. Customer ROI Metrics Framework
 **Tech Stack**: Snowflake, SQL, Excel  
-- Created detailed ROI metrics for each enabled product  
+- Created detailed ROI metrics for each enabled product (e.g., Intake, Scheduling, Reminders)  
 - Aligned KPIs with product usage, provider adoption, and feature engagement  
 - Delivered monthly ROI reports to inform upsell and renewal discussions
 
@@ -52,7 +53,7 @@ I'm a data-driven problem solver passionate about turning raw data into actionab
 - Disabled 300+ inactive phone numbers  
 - **Result**: ~$75/month cost savings + improved SMS performance
 
-### 4. Case Study Candidate Scoring Model (In Progress)
+### 4. Case Study Candidate Scoring Model
 **Tech Stack**: SQL, Operational Metrics  
 - Developed a scoring algorithm to recommend customers for case studies  
 - Criteria: engagement trends, support ticket history, NPS/LTR scores, feature usage  
@@ -88,12 +89,12 @@ I'm a data-driven problem solver passionate about turning raw data into actionab
 
 I also write about my data projects and experiments in automation, analytics, and operations:
 
-- [How I Automated My Reporting Using Snowflake + Python + Word](./blog/blog1-reporting-automation.md)
-- [Reducing SMS Message Segments to Save $$$](./blog/blog2-sms-optimization.md)
-- [Scoring Model for Case Study Customer Selection](./blog/blog3-customer-scoring-model.md)
-- [Reconciliation Framework for CRM, Billing & Ops](./blog/blog4-data-reconciliation-framework.md)
-- [Patient Funnel Drop-Off Report Using Self-Scheduling Data](./blog/blog5-patient-funnel-dropoff.md)
-- [Provider Count Workflow for Accurate Billing](./blog/blog6-provider-count-billing.md)
+- [How I Automated My Reporting Using Snowflake + Python + Word](./blog/blog1-reporting-automation.md)  
+- [Reducing SMS Message Segments to Save $$$](./blog/blog2-sms-optimization.md)  
+- [Scoring Model for Case Study Customer Selection](./blog/blog3-customer-scoring-model.md)  
+- [Reconciliation Framework for CRM, Billing & Ops](./blog/blog4-data-reconciliation-framework.md)  
+- [Patient Funnel Drop-Off Report Using Self-Scheduling Data](./blog/blog5-patient-funnel-dropoff.md)  
+- [Provider Count Workflow for Accurate Billing](./blog/blog6-provider-count-billing.md)  
 - [Reminder Message Audit System](./blog/blog7-reminder-message-audit.md)
 
 ---
