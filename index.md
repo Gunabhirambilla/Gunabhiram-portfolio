@@ -13,14 +13,14 @@ I'm a data-driven problem solver passionate about turning raw data into actionab
 ## 🧠 Core Skills
 
 ### Languages & Tools
-- **SQL**: Advanced joins, window functions, CTEs, optimization
-- **Python** (in progress): Data wrangling, PDF/Word automation, scheduling scripts
+- **SQL**: Advanced joins, window functions, CTEs, optimization  
+- **Python**: Data wrangling, PDF/Word automation, scheduling scripts  
 - **Excel/Word Automation**: Charts, text updates, Word-to-PDF pipelines
 
 ### Platforms & Databases
-- **Snowflake**: Data warehouse design, transformation logic
-- **Tableau & Amazon QuickSight**: Dashboard creation, embedding reports in apps
-- **CRM/Accounting Systems**: ZOHO CRM, QuickBooks integration
+- **Snowflake**: Data warehouse design, transformation logic  
+- **Tableau & Amazon QuickSight**: Dashboard creation, embedding reports in apps  
+- **CRM/Accounting Systems**: ZOHO CRM, QuickBooks integration  
 - **Project Management**: Jira, Google Workspace
 
 ### Strengths
@@ -41,7 +41,7 @@ I'm a data-driven problem solver passionate about turning raw data into actionab
 
 ### 2. Customer ROI Metrics Framework
 **Tech Stack**: Snowflake, SQL, Excel  
-- Created detailed ROI metrics for each enabled Yosi product (Intake, Scheduling, Reminders, etc.)  
+- Created detailed ROI metrics for each enabled product  
 - Aligned KPIs with product usage, provider adoption, and feature engagement  
 - Delivered monthly ROI reports to inform upsell and renewal discussions
 
@@ -54,7 +54,7 @@ I'm a data-driven problem solver passionate about turning raw data into actionab
 
 ### 4. Case Study Candidate Scoring Model (In Progress)
 **Tech Stack**: SQL, Operational Metrics  
-- Developing a scoring algorithm to recommend customers for case studies  
+- Developed a scoring algorithm to recommend customers for case studies  
 - Criteria: engagement trends, support ticket history, NPS/LTR scores, feature usage  
 - **Goal**: Streamline selection for marketing and success teams
 
@@ -84,6 +84,20 @@ I'm a data-driven problem solver passionate about turning raw data into actionab
 
 ---
 
+## 📝 Blog Articles
+
+I also write about my data projects and experiments in automation, analytics, and operations:
+
+- [How I Automated My Reporting Using Snowflake + Python + Word](./blog/blog1-reporting-automation.md)
+- [Reducing SMS Message Segments to Save $$$](./blog/blog2-sms-optimization.md)
+- [Scoring Model for Case Study Customer Selection](./blog/blog3-customer-scoring-model.md)
+- [Reconciliation Framework for CRM, Billing & Ops](./blog/blog4-data-reconciliation-framework.md)
+- [Patient Funnel Drop-Off Report Using Self-Scheduling Data](./blog/blog5-patient-funnel-dropoff.md)
+- [Provider Count Workflow for Accurate Billing](./blog/blog6-provider-count-billing.md)
+- [Reminder Message Audit System](./blog/blog7-reminder-message-audit.md)
+
+---
+
 ## 🌍 Location & Goals
 
 - **Location**: New York City (open to hybrid or remote roles)  
@@ -101,6 +115,4 @@ I'm a data-driven problem solver passionate about turning raw data into actionab
 
 ---
 
-
 *Let’s build smarter systems with data.*
-
