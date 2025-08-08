@@ -1,3 +1,9 @@
+---
+layout: post
+title: "Building a Lightweight Reminder Message Audit System"
+date: 2025-08-08
+---
+
 # Building a Lightweight Reminder Message Audit System
 
 ## 📌 Background
