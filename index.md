@@ -13,7 +13,7 @@ I'm a data-driven problem solver passionate about turning raw data into actionab
 
 ### Languages & Tools
 - **SQL**: Advanced joins, window functions, CTEs, optimization  
-- **Python**: Data wrangling, PDF/Word automation, scheduling scripts  
+- **Python** (in progress): Data wrangling, PDF/Word automation, scheduling scripts  
 - **Excel/Word Automation**: Charts, text updates, Word-to-PDF pipelines  
 
 ### Platforms & Databases
@@ -31,55 +31,55 @@ I'm a data-driven problem solver passionate about turning raw data into actionab
 
 ## 📊 Featured Projects
 
-### 1. Automated Weekly Reporting Pipeline  
+### 1. Automated Weekly Reporting Pipeline
 **Tech Stack**: Snowflake, SQL, Excel, Python, Word, PDF  
 - Designed an automated pipeline to extract KPIs from Snowflake and populate Excel charts  
 - Used Python to insert dynamic content into Word and convert to PDF  
 - Scheduled weekly execution and emailed reports to stakeholders  
 - **Result**: 80% time savings and increased stakeholder engagement
 
-### 2. Customer ROI Metrics Framework  
+### 2. Customer ROI Metrics Framework
 **Tech Stack**: Snowflake, SQL, Excel  
-- Created detailed ROI metrics for each enabled product (Intake, Scheduling, Reminders, etc.)  
+- Created detailed ROI metrics for each enabled product  
 - Aligned KPIs with product usage, provider adoption, and feature engagement  
 - Delivered monthly ROI reports to inform upsell and renewal discussions
 
-### 3. Reminder Message Optimization  
+### 3. Reminder Message Optimization
 **Tech Stack**: SQL, Excel  
-- Audited SMS message length by customer to reduce segment overage charges  
+- Audited SMS message length to reduce segment overage charges  
 - Introduced templated messages capped at 150 characters  
 - Disabled 300+ inactive phone numbers  
 - **Result**: ~$75/month cost savings + improved SMS performance
 
-### 4. Case Study Candidate Scoring Model (In Progress)  
-**Tech Stack**: SQL, Operational Metrics  
-- Developing a scoring algorithm to recommend customers for case studies  
+### 4. Case Study Candidate Scoring Model
+**Tech Stack**: SQL, Excel  
+- Developed a scoring algorithm to recommend customers for case studies  
 - Criteria: engagement trends, support ticket history, NPS/LTR scores, feature usage  
 - **Goal**: Streamline selection for marketing and success teams
 
-### 5. Self-Scheduling Funnel Drop-Off Report  
+### 5. Self-Scheduling Funnel Drop-Off Report
 **Tech Stack**: SQL, Snowflake, Excel  
-- Tracked patient behavior across self-scheduling funnel (from visit to booking)  
-- Identified where drop-offs occurred (e.g., after slot selection, location filter)  
-- Used data to improve widget UX and increase conversion rates
+- Tracked patient behavior across self-scheduling funnel  
+- Identified drop-off points to improve widget UX  
+- Increased conversion rates through data-driven UX improvements
 
-### 6. Provider Count Tracking for Billing Accuracy  
+### 6. Provider Count Tracking for Billing Accuracy
 **Tech Stack**: Excel, SQL, QuickBooks  
 - Reconciled provider counts across internal records, CRM, and QuickBooks  
 - Identified mismatches that affected invoice accuracy  
-- Built monthly provider validation workflow for operations and finance teams
+- Built monthly validation workflow for ops and finance teams
 
-### 7. Athena API Usage and Cost Report  
+### 7. Athena API Usage and Cost Report
 **Tech Stack**: SQL, Athena API Logs  
-- Analyzed six months of Athena API usage across customers  
-- Identified high-volume endpoints and underutilized APIs  
-- Proposed optimization plan to reduce redundant calls and AWS costs
+- Analyzed six months of Athena API usage  
+- Identified redundant and underutilized calls  
+- Proposed plan to optimize usage and reduce AWS costs
 
-### 8. Intake Completion vs. Visit Ratio Analysis  
+### 8. Intake Completion vs. Visit Ratio Analysis
 **Tech Stack**: SQL, Excel, Snowflake  
-- Compared the number of completed intake forms to actual patient visits  
-- Segmented by location and month to highlight underperforming sites  
-- Shared results with customer success team to drive engagement strategies
+- Compared completed intake forms vs. actual visits  
+- Segmented by location to highlight underperformance  
+- Shared with CS team to guide improvement
 
 ---
 
