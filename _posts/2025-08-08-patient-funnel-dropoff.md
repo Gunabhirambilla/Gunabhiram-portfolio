@@ -1,3 +1,9 @@
+---
+layout: post
+title: "Designing a Patient Funnel Drop-Off Report Using Self-Scheduling Data"
+date: 2025-08-08
+---
+
 # Designing a Patient Funnel Drop-Off Report Using Self-Scheduling Data
 
 ## 📌 Background
