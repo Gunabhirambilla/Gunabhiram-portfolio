@@ -154,23 +154,6 @@ Clear, consistent communication and shared understanding.
 
 ---
 
-# 📊 My Workflow at a Glance
+## 📊 My Workflow at a Glance
+![Analytics Engineering Workflow](/assets/mermaid-workflow.svg)
 
-```mermaid
-flowchart LR
-    A[Business Requirements<br/>KPI Definitions<br/>Source System Understanding] --> B[Collaborate With Data Engineers<br/>Clarify Fields & Rules<br/>Validate Staged Data]
-    B --> C[Semantic View Layer<br/>SQL Modeling<br/>Metric Logic Standardization]
-    C --> D[Automated Reporting Layer<br/>Python Pipelines<br/>Excel/Word/PDF Automation]
-    D --> E[Delivered Insights<br/>Dashboards & Reports<br/>Stakeholder Consumption]
-
-    A:::stage1
-    B:::stage2
-    C:::stage3
-    D:::stage4
-    E:::stage5
-
-    classDef stage1 fill:#e6f2ff,stroke:#003d66,stroke-width:1px;
-    classDef stage2 fill:#e8ffe6,stroke:#006622,stroke-width:1px;
-    classDef stage3 fill:#fff5e6,stroke:#cc7a00,stroke-width:1px;
-    classDef stage4 fill:#fce6ff,stroke:#660066,stroke-width:1px;
-    classDef stage5 fill:#f2f2f2,stroke:#737373,stroke-width:1px;
