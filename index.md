@@ -50,7 +50,7 @@ Currently, I’m focused on strengthening my **Python + Snowflake** stack to bui
 
 ## ⭐ Featured Projects
 
-Below are selected projects framed as **end-to-end data and analytics systems** with clear technical scope and business impact.
+Below are selected projects that show how I build data systems end-to-end — from modeling and automation to business impact.
 
 ---
 
