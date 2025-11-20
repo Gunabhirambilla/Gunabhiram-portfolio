@@ -3,33 +3,40 @@ description: "Portfolio showcasing data engineering, analytics engineering, SQL 
 theme: minima
 markdown: kramdown
 
+# IMPORTANT: Your site is a project page, not root
 url: "https://gunabhirambilla.github.io"
 baseurl: "/Gunabhiram-portfolio"
 
-# Allow future-dated blog posts
+# Show 2025 posts
 future: true
 
+# Enable social previews + SEO optimization
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
 
+# SEO Metadata
 author:
   name: "Gunabhiram Billa"
   email: "gunabhiram.billa@gmail.com"
   github: "gunabhiram"
   linkedin: "https://www.linkedin.com/in/gunabhiram/"
 
+# Permalinks (cleaner URLs)
 permalink: /:title/
 
+# Minima theme settings
 minima:
   skin: classic
   social_links:
     - { platform: github,  user_url: "https://github.com/gunabhiram" }
     - { platform: linkedin, user_url: "https://www.linkedin.com/in/gunabhiram/" }
 
+# Build settings
 kramdown:
   input: GFM
 
+# Future-proofing (optional but good practice)
 exclude:
   - README.md
   - Gemfile
