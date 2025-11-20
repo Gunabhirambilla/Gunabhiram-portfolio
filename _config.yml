@@ -3,6 +3,9 @@ description: "Portfolio showcasing data engineering, analytics engineering, SQL 
 theme: minima
 markdown: kramdown
 
+# Allow future-dated blog posts (important for 2025 posts)
+future: true
+
 # Enable social previews + SEO optimization
 plugins:
   - jekyll-feed
