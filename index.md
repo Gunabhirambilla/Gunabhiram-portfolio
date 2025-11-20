@@ -123,7 +123,7 @@ Below are selected projects that show how I build data systems end-to-end — fr
 I document my thinking through blog-style posts (hosted in this site’s Blog section):
 
 {% for post in site.posts %}
-- [{{ post.title }}]({{ post.url | relative_url }})
+- [{{ post.title }}]({{ post.url | prepend: site.baseurl | prepend: site.url }})
 {% endfor %}
 
 Topics include:
