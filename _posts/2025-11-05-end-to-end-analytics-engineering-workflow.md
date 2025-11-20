@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "My Workflow as an Analytics Engineer: Turning Complex Data Into Reliable, Automated Insights"
-date: 2025-12-31
+date: 2025-11-05
 ---
 
 # My Workflow as an Analytics Engineer: Turning Complex Data Into Reliable, Automated Insights
