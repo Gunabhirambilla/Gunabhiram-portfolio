@@ -10,9 +10,19 @@ title: Gunabhiram Billa – Portfolio
 
 ---
 
-## 👋 About Me
+<nav>
+  <a href="#about">About</a> ·
+  <a href="#skills">Skills</a> ·
+  <a href="#projects">Projects</a> ·
+  <a href="#articles">Articles</a> ·
+  <a href="#contact">Contact</a>
+</nav>
 
-I’m a data engineer and analytics specialist who builds **scalable data systems, automated reporting pipelines, and operational analytics** for healthcare organizations.
+---
+
+## 👋 About Me {#about}
+
+I’m a data engineer and analytics specialist who builds **scalable data systems, automated reporting pipelines, and operational analytics** for organizations.
 
 My work sits at the intersection of:
 
@@ -26,7 +36,7 @@ Currently, I’m focused on strengthening my **Python + Snowflake** stack to bui
 
 ---
 
-## 🧠 Core Skills
+## 🧠 Core Skills {#skills}
 
 ### Languages & Tools
 - **SQL**: Advanced joins, window functions, CTE pipelines, performance tuning  
@@ -46,9 +56,17 @@ Currently, I’m focused on strengthening my **Python + Snowflake** stack to bui
 - Operational KPI framework design  
 - Cross-functional collaboration across technical and non-technical teams  
 
+### Technical Stack (At a Glance)
+
+- **Data & Warehouse**: Snowflake, SQL  
+- **Programming**: Python  
+- **Analytics & BI**: Tableau, Amazon QuickSight, Excel  
+- **Automation**: Python + Office (Excel/Word/PDF)  
+- **Collaboration**: GitHub, Jira, Google Workspace  
+
 ---
 
-## ⭐ Featured Projects
+## ⭐ Featured Projects {#projects}
 
 Below are selected projects that show how I build data systems end-to-end — from modeling and automation to business impact.
 
@@ -58,10 +76,12 @@ Below are selected projects that show how I build data systems end-to-end — fr
 
 **Tech Stack**: Snowflake, SQL, Python, Excel, Word, PDF  
 
-- Extracts KPIs from Snowflake using parameterized SQL  
-- Populates Excel templates and charts  
-- Injects metrics and visuals into a Word report  
-- Exports final reports as PDF  
+- Built an end-to-end reporting system that:
+  - Extracts KPIs from Snowflake using parameterized SQL
+  - Populates Excel templates and charts
+  - Injects metrics and visuals into a Word report
+  - Exports final reports as PDF
+- Designed the workflow so it can be scheduled and reused across multiple customers.  
 - **Impact**: ~80% reduction in manual reporting time and consistent weekly insights for leadership.
 
 ---
@@ -70,10 +90,12 @@ Below are selected projects that show how I build data systems end-to-end — fr
 
 **Tech Stack**: Snowflake, SQL, Excel  
 
-- Standardized ROI models across products  
-- Tracked intake completion, scheduling adoption, reminders, and after-hours activity  
-- Quantified time savings, productivity lift, and potential revenue impact  
-- **Impact**: Critical support for renewals, pricing, and customer success.
+- Designed a standardized ROI framework across products:
+  - Intake completion vs visits
+  - Self-scheduling adoption and after-hours bookings
+  - Reminder effectiveness and message delivery
+- Modeled product usage data to quantify time savings, adoption, and potential revenue impact.  
+- **Impact**: Used in renewal and upsell conversations to show clear value by customer and product.
 
 ---
 
@@ -81,10 +103,10 @@ Below are selected projects that show how I build data systems end-to-end — fr
 
 **Tech Stack**: SQL, Excel  
 
-- Analyzed message segment usage across customers  
-- Created standardized templates capped at ~150 characters  
-- Identified and disabled 300+ inactive phone numbers  
-- **Impact**: Reduced SMS spend & improved messaging performance.
+- Audited SMS reminder content and segment usage at the customer level.  
+- Defined message templates with a ~150-character cap to minimize multi-segment texts.  
+- Identified and disabled 300+ inactive or unnecessary phone numbers.  
+- **Impact**: Reduced monthly SMS costs and standardized messaging behavior across customers.
 
 ---
 
@@ -92,9 +114,14 @@ Below are selected projects that show how I build data systems end-to-end — fr
 
 **Tech Stack**: SQL, Excel, QuickBooks  
 
-- Synced provider counts across operational data, CRM, and invoicing  
-- Applied business rules (MD vs Midlevel, FTE thresholds)  
-- **Impact**: Prevented underbilling, improved accuracy, standardized monthly workflows.
+- Built a reconciliation workflow to align:
+  - Provider counts in internal operational records
+  - CRM/contract details
+  - QuickBooks invoices  
+- Implemented business rules such as:
+  - MD vs. Midlevel classification
+  - FTE thresholds (e.g., >100 hours = 1.0 FTE; <100 hours = 0.5 FTE)  
+- **Impact**: Improved billing accuracy and reduced risk of underbilling or misclassification.
 
 ---
 
@@ -102,29 +129,31 @@ Below are selected projects that show how I build data systems end-to-end — fr
 
 **Tech Stack**: SQL, API Logs  
 
-- Analyzed 6 months of API traffic  
-- Identified redundant calls & underused endpoints  
-- **Impact**: Provided engineering with actions to reduce AWS spend and improve API efficiency.
+- Analyzed 6 months of API usage across multiple systems.  
+- Identified high-volume endpoints, redundant patterns, and underutilized APIs.  
+- Recommended optimization opportunities for call patterns and cost reduction.  
+- **Impact**: Provided engineering and leadership with data to tune API usage and manage spend.
 
 ---
 
-## ✍️ Technical & Analytics Writing
+## ✍️ Articles & Technical Writing {#articles}
 
 I document my thinking through blog-style posts hosted within this site:
 
-{% for post in site.posts %}
+{% assign sorted_posts = site.posts %}
+{% for post in sorted_posts %}
 - [{{ post.title }}]({{ post.url | prepend: site.baseurl | prepend: site.url }})
 {% endfor %}
 
 Topics include:
 
+- My workflow as an Analytics Engineer (semantic views + automation)  
 - SMS message optimization using SQL  
 - Lightweight reminder audit systems  
 - Provider count frameworks for billing  
-- Funnel drop-off reporting for scheduling  
-- CRM–billing–intake reconciliation workflows  
-- Case study scoring models  
-- Python-driven reporting automation  
+- Self-scheduling funnel drop-off reporting  
+- Reconciliation frameworks across CRM, billing, and operational systems  
+- Automating reporting using Snowflake + Python + Word  
 
 ---
 
@@ -133,14 +162,14 @@ Topics include:
 - **Location**: New York City (open to hybrid and remote roles)  
 - **Short-Term Goals**:
   - Strengthen Python-based automation and orchestration  
-  - Build more production-style Snowflake + Python pipelines  
+  - Build more production-style Snowflake + Python projects on GitHub  
 - **Long-Term Goals**:
   - Grow into a **Senior Data Engineer / Analytics Engineer** role  
-  - Design data systems that connect operations, finance, product, and customer success  
+  - Lead data systems that connect operations, finance, product, and customer success  
 
 ---
 
-## 📁 Contact & Access
+## 📁 Contact & Access {#contact}
 
 - **Resume**: Available upon request  
 - **LinkedIn**: [linkedin.com/in/gunabhiram](https://www.linkedin.com/in/gunabhiram)  
