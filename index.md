@@ -68,7 +68,7 @@ Below are selected projects that show how I build data systems end-to-end — fr
 
 ---
 
-### 2. Customer ROI Metrics Engine (Product-Level ROI for Intake, Scheduling, Reminders)
+### 2. Customer ROI Metrics Engine (Product-Level ROI)
 
 **Tech Stack**: Snowflake, SQL, Excel  
 
@@ -92,19 +92,7 @@ Below are selected projects that show how I build data systems end-to-end — fr
 
 ---
 
-### 4. Self-Scheduling Funnel Drop-Off Analytics
-
-**Tech Stack**: Snowflake, SQL, Excel  
-
-- Modeled the patient self-scheduling funnel:
-  - Link clicks → qualification → location selection → slot selection → confirmed booking  
-- Calculated stage-wise drop-off percentages and segmented results by location and time period.  
-- Collaborated with product and CS to interpret where patients were abandoning the flow.  
-- **Impact**: Provided concrete guidance for UX and workflow improvements to increase booking conversion.
-
----
-
-### 5. Provider Count & Billing Reconciliation System
+### 4. Provider Count & Billing Reconciliation System
 
 **Tech Stack**: SQL, Excel, QuickBooks  
 
@@ -119,26 +107,15 @@ Below are selected projects that show how I build data systems end-to-end — fr
 
 ---
 
-### 6. Athena API Usage & Cost Analysis
+### 5. EMR API Usage & Cost Analysis
 
 **Tech Stack**: SQL, API Logs  
 
-- Analyzed 6 months of Athena API usage across multiple customers.  
+- Analyzed 6 months of EMR API usage across multiple customers.  
 - Identified high-volume endpoints, redundant patterns, and underutilized APIs.  
 - Recommended optimization opportunities for call patterns and cost reduction.  
 - **Impact**: Provided engineering and leadership with data to tune API usage and manage AWS spend.
 
----
-
-### 7. Intake Completion vs. Visit Ratio Engine
-
-**Tech Stack**: Snowflake, SQL, Excel  
-
-- Built comparative views of:
-  - Intake invitations sent vs. completed forms
-  - Completed forms vs. actual patient visits  
-- Segmented results by customer, location, and month to identify underperforming sites.  
-- **Impact**: Enabled customer success and product teams to drive digital adoption where completion lagged behind visit volume.
 
 ---
 
