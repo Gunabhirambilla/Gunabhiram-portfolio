@@ -3,44 +3,33 @@ description: "Portfolio showcasing data engineering, analytics engineering, SQL 
 theme: minima
 markdown: kramdown
 
-
 url: "https://gunabhirambilla.github.io"
 baseurl: "/Gunabhiram-portfolio"
 
-# Allow future-dated blog posts (important for 2025 posts)
+# Allow future-dated blog posts
 future: true
 
-# Enable social previews + SEO optimization
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
 
-# SEO Metadata
 author:
   name: "Gunabhiram Billa"
   email: "gunabhiram.billa@gmail.com"
   github: "gunabhiram"
   linkedin: "https://www.linkedin.com/in/gunabhiram/"
 
-# Social sharing image (optional: upload one to /assets folder)
-# twitter_image: /assets/profile-banner.png
-# image: /assets/profile-banner.png
-
-# Permalinks (cleaner URLs)
 permalink: /:title/
 
-# Minima theme settings
 minima:
   skin: classic
   social_links:
     - { platform: github,  user_url: "https://github.com/gunabhiram" }
     - { platform: linkedin, user_url: "https://www.linkedin.com/in/gunabhiram/" }
 
-# Build settings
 kramdown:
   input: GFM
 
-# Future-proofing (optional but good practice)
 exclude:
   - README.md
   - Gemfile
