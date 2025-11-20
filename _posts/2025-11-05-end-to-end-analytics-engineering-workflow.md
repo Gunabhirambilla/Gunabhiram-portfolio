@@ -154,12 +154,6 @@ Clear, consistent communication and shared understanding.
 
 ---
 
-## 📊 My Workflow at a Glance
-
-![Analytics Engineering Workflow](assets/mermaid-workflow.svg)
-
----
-
 # Closing Thoughts
 
 My work focuses on turning messy, disconnected data into **clear, trustworthy, and automated insights** through semantic modeling and analytics engineering.
