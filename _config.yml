@@ -3,6 +3,10 @@ description: "Portfolio showcasing data engineering, analytics engineering, SQL 
 theme: minima
 markdown: kramdown
 
+
+url: "https://gunabhirambilla.github.io"
+baseurl: "/Gunabhiram-portfolio"
+
 # Allow future-dated blog posts (important for 2025 posts)
 future: true
 
