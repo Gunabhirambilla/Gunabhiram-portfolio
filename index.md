@@ -116,7 +116,6 @@ Below are selected projects that show how I build data systems end-to-end — fr
 - Recommended optimization opportunities for call patterns and cost reduction.  
 - **Impact**: Provided engineering and leadership with data to tune API usage and manage AWS spend.
 
-
 ---
 
 ## ✍️ Technical & Analytics Writing
@@ -124,9 +123,8 @@ Below are selected projects that show how I build data systems end-to-end — fr
 I document my thinking through blog-style posts (hosted in this site’s Blog section):
 
 {% for post in site.posts %}
-- [{{ post.title }}]({{ site.baseurl }}{{ post.url }})
+- [{{ post.title }}]({{ post.url | relative_url }})
 {% endfor %}
-
 
 Topics include:
 
@@ -136,7 +134,7 @@ Topics include:
 - Self-scheduling funnel drop-off reporting  
 - Reconciliation frameworks across CRM, billing, and operational systems  
 - Case study scoring models using NPS and engagement  
-- Automating reporting using Snowflake + Python + Word
+- Automating reporting using Snowflake + Python + Word  
 
 ---
 
