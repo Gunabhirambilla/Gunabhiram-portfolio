@@ -155,5 +155,23 @@ Clear, consistent communication and shared understanding.
 ---
 
 ## 📊 My Workflow at a Glance
-![Analytics Engineering Workflow](/assets/mermaid-workflow.svg)
 
+![Analytics Engineering Workflow](assets/mermaid-workflow.svg)
+
+---
+
+# Closing Thoughts
+
+My work focuses on turning messy, disconnected data into **clear, trustworthy, and automated insights** through semantic modeling and analytics engineering.
+
+These systems help organizations:
+
+- standardize KPIs  
+- automate manual workflows  
+- improve data trust  
+- accelerate decision-making  
+- reduce operational overhead  
+
+By bridging the gap between engineering and analytics, I ensure that data is not only stored — but actually **understood, trusted, and used**.
+
+More engineering and automation write-ups coming soon.
