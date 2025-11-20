@@ -58,12 +58,10 @@ Below are selected projects that show how I build data systems end-to-end — fr
 
 **Tech Stack**: Snowflake, SQL, Python, Excel, Word, PDF  
 
-- Built an end-to-end reporting system that:
-  - Extracts KPIs from Snowflake using parameterized SQL
-  - Populates Excel templates and charts
-  - Injects metrics and visuals into a Word report
-  - Exports final reports as PDF
-- Designed the workflow so it can be scheduled and reused across multiple customers.  
+- Extracts KPIs from Snowflake using parameterized SQL  
+- Populates Excel templates and charts  
+- Injects metrics and visuals into a Word report  
+- Exports final reports as PDF  
 - **Impact**: ~80% reduction in manual reporting time and consistent weekly insights for leadership.
 
 ---
@@ -72,12 +70,10 @@ Below are selected projects that show how I build data systems end-to-end — fr
 
 **Tech Stack**: Snowflake, SQL, Excel  
 
-- Designed a standardized ROI framework across Yosi products:
-  - Intake completion vs visits
-  - Self-scheduling adoption and after-hours bookings
-  - Reminder effectiveness and message delivery
-- Modeled product usage data to quantify time savings, adoption, and potential revenue impact.  
-- **Impact**: Used in renewal and upsell conversations to show clear value by customer and product.
+- Standardized ROI models across products  
+- Tracked intake completion, scheduling adoption, reminders, and after-hours activity  
+- Quantified time savings, productivity lift, and potential revenue impact  
+- **Impact**: Critical support for renewals, pricing, and customer success.
 
 ---
 
@@ -85,10 +81,10 @@ Below are selected projects that show how I build data systems end-to-end — fr
 
 **Tech Stack**: SQL, Excel  
 
-- Audited SMS reminder content and segment usage at the customer level.  
-- Defined message templates with a ~150-character cap to minimize multi-segment texts.  
-- Identified and disabled 300+ inactive or unnecessary phone numbers.  
-- **Impact**: Reduced monthly SMS costs (~$75/month) and standardized messaging behavior across customers.
+- Analyzed message segment usage across customers  
+- Created standardized templates capped at ~150 characters  
+- Identified and disabled 300+ inactive phone numbers  
+- **Impact**: Reduced SMS spend & improved messaging performance.
 
 ---
 
@@ -96,14 +92,9 @@ Below are selected projects that show how I build data systems end-to-end — fr
 
 **Tech Stack**: SQL, Excel, QuickBooks  
 
-- Built a reconciliation workflow to align:
-  - Provider counts in internal operational records
-  - CRM/contract details
-  - QuickBooks invoices  
-- Implemented business rules such as:
-  - MD vs. Midlevel classification
-  - FTE thresholds (e.g., >100 hours = 1.0 FTE; <100 hours = 0.5 FTE)  
-- **Impact**: Improved billing accuracy and reduced risk of underbilling or misclassification.
+- Synced provider counts across operational data, CRM, and invoicing  
+- Applied business rules (MD vs Midlevel, FTE thresholds)  
+- **Impact**: Prevented underbilling, improved accuracy, standardized monthly workflows.
 
 ---
 
@@ -111,16 +102,15 @@ Below are selected projects that show how I build data systems end-to-end — fr
 
 **Tech Stack**: SQL, API Logs  
 
-- Analyzed 6 months of EMR API usage across multiple customers.  
-- Identified high-volume endpoints, redundant patterns, and underutilized APIs.  
-- Recommended optimization opportunities for call patterns and cost reduction.  
-- **Impact**: Provided engineering and leadership with data to tune API usage and manage AWS spend.
+- Analyzed 6 months of API traffic  
+- Identified redundant calls & underused endpoints  
+- **Impact**: Provided engineering with actions to reduce AWS spend and improve API efficiency.
 
 ---
 
 ## ✍️ Technical & Analytics Writing
 
-I document my thinking through blog-style posts (hosted in this site’s Blog section):
+I document my thinking through blog-style posts hosted within this site:
 
 {% for post in site.posts %}
 - [{{ post.title }}]({{ post.url | prepend: site.baseurl | prepend: site.url }})
@@ -128,13 +118,13 @@ I document my thinking through blog-style posts (hosted in this site’s Blog se
 
 Topics include:
 
-- Reducing SMS message segments using SQL optimization  
-- Building lightweight reminder audit systems  
-- Provider count frameworks for billing accuracy  
-- Self-scheduling funnel drop-off reporting  
-- Reconciliation frameworks across CRM, billing, and operational systems  
-- Case study scoring models using NPS and engagement  
-- Automating reporting using Snowflake + Python + Word  
+- SMS message optimization using SQL  
+- Lightweight reminder audit systems  
+- Provider count frameworks for billing  
+- Funnel drop-off reporting for scheduling  
+- CRM–billing–intake reconciliation workflows  
+- Case study scoring models  
+- Python-driven reporting automation  
 
 ---
 
@@ -143,10 +133,10 @@ Topics include:
 - **Location**: New York City (open to hybrid and remote roles)  
 - **Short-Term Goals**:
   - Strengthen Python-based automation and orchestration  
-  - Build more production-style Snowflake + Python projects on GitHub  
+  - Build more production-style Snowflake + Python pipelines  
 - **Long-Term Goals**:
   - Grow into a **Senior Data Engineer / Analytics Engineer** role  
-  - Lead data systems that connect operations, finance, product, and customer success
+  - Design data systems that connect operations, finance, product, and customer success  
 
 ---
 
@@ -159,4 +149,4 @@ Topics include:
 
 ---
 
-*Let’s build data systems that drive real outcomes, not just dashboards.*  
+*Let’s build data systems that drive real outcomes, not just dashboards.*
