@@ -136,6 +136,58 @@ Below are selected projects that show how I build data systems end-to-end — fr
 
 ---
 
+### 6. Multi-Tenant Data Warehouse Modeling (Fact & Dimension Architecture)
+
+**Tech Stack**: Snowflake, SQL  
+
+- Designed scalable fact and dimension models supporting multi-customer analytics within a shared warehouse environment.  
+- Implemented time-aware dimensional joins (SCD Type 1 / Type 2 patterns) to preserve historical attribution across changing provider and customer attributes.  
+- Structured layered transformations (staging → intermediate → mart) to ensure governed and reusable downstream datasets.  
+- Enforced tenant-aware filtering and modeling discipline to enable secure cross-customer benchmarking without data duplication.  
+
+**Impact**: Improved query performance, reduced transformation redundancy, and strengthened data governance across analytics workloads.
+
+---
+
+### 7. Idempotent Incremental ETL Framework
+
+**Tech Stack**: Snowflake, SQL, Python  
+
+- Designed incremental load logic using deterministic watermark tracking and overlapping load windows.  
+- Implemented merge-based upsert patterns to support safe reruns and eliminate duplicate record risks.  
+- Built validation checks for row counts, duplicate detection, and late-arriving data handling.  
+- Structured pipeline control tables to track execution state, load metadata, and recovery checkpoints.  
+
+**Impact**: Increased reliability of daily ETL processes and reduced operational recovery time during pipeline reruns.
+
+---
+
+### 8. Cross-System Data Quality & Reconciliation Framework
+
+**Tech Stack**: Snowflake, SQL  
+
+- Designed automated validation logic across CRM, billing, and operational data sources.  
+- Implemented deterministic mismatch detection rules for status alignment, provider counts, and revenue attribution.  
+- Created daily reconciliation snapshots to monitor cross-system drift trends over time.  
+- Built exception reporting views to support structured resolution workflows across stakeholders.  
+
+**Impact**: Improved trust in financial and operational reporting while reducing reconciliation-related manual effort.
+
+---
+
+### 9. Snowflake Warehouse Cost & Query Optimization Initiative
+
+**Tech Stack**: Snowflake, SQL  
+
+- Analyzed warehouse metering and query history to identify high-cost workloads and scan inefficiencies.  
+- Segmented compute warehouses by workload type (ETL, BI, ad hoc) to improve cost isolation and performance stability.  
+- Optimized filtering and aggregation strategies to improve partition pruning and reduce full-table scans.  
+- Implemented right-sizing and auto-suspend policies to control idle compute consumption.  
+
+**Impact**: Increased compute efficiency and improved long-term cost predictability across analytics operations.
+
+---
+
 ## ✍️ Articles & Technical Writing {#articles}
 
 I document my thinking through blog-style posts hosted within this site:
