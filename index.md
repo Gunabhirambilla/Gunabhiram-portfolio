@@ -1,11 +1,11 @@
 ---
 layout: default
-title: Gunabhiram Billa – Portfolio
+title: Gunabhiram Billa – Data Engineering & Analytics Portfolio
 ---
 
 # Gunabhiram Billa
 
-**Data Engineer | Analytics Engineer | Healthcare Data | New York City**  
+**Data Engineer | Analytics Engineer | Snowflake | Healthcare Data | New York City**  
 [LinkedIn](https://www.linkedin.com/in/gunabhiram/) • [GitHub](https://github.com/gunabhiram) • [Email](mailto:gunabhiram.billa@gmail.com)
 
 ---
@@ -22,53 +22,45 @@ title: Gunabhiram Billa – Portfolio
 
 ## 👋 About Me {#about}
 
-I’m a data engineer and analytics specialist who builds **scalable data systems, automated reporting pipelines, and operational analytics** for organizations.
+I design and build **scalable data systems, automated reporting pipelines, and operational analytics frameworks** that support revenue, efficiency, and decision-making.
 
 My work sits at the intersection of:
 
-- **Data Engineering** – Snowflake data warehousing, SQL modeling, automation  
-- **Operational Analytics** – KPIs, funnel analysis, provider productivity, billing accuracy  
-- **Business Impact** – Intake completion, scheduling conversion, ROI modeling, cost optimization  
+- **Data Engineering** – Snowflake data warehousing, SQL modeling, incremental pipelines  
+- **Analytics Engineering** – Semantic layers, KPI frameworks, governed reporting systems  
+- **Operational Analytics** – Funnel analysis, provider productivity, billing accuracy  
+- **Business Impact** – ROI modeling, cost optimization, cross-system reconciliation  
 
-I partner with Product, Engineering, Sales, Marketing, Finance, and Customer Success to turn messy, fragmented data into systems that directly support revenue, efficiency, and decision-making.
-
-Currently, I’m focused on strengthening my **Python + Snowflake** stack to build end-to-end production-quality data pipelines.
+I collaborate across Product, Engineering, Finance, Sales, and Customer Success to turn fragmented operational data into reliable, decision-ready systems.
 
 ---
 
 ## 🧠 Core Skills {#skills}
 
 ### Languages & Tools
-- **SQL**: Advanced joins, window functions, CTE pipelines, performance tuning  
-- **Python**: Reporting automation, PDF/Word generation, data wrangling  
-- **Excel/Word Automation**: Dynamic charts, templated reports, Word-to-PDF workflows  
-- **Git & GitHub**: Version control and project collaboration
+- **SQL** – Advanced joins, CTE pipelines, window functions, performance tuning  
+- **Python** – Automation, reporting workflows, data wrangling  
+- **Excel & Word Automation** – Dynamic charts, templated reporting, PDF generation  
+- **Git & GitHub** – Version control and collaboration  
 
 ### Platforms & Databases
-- **Snowflake**: Data warehouse design, transformation logic, semantic views  
-- **AWS (exposure)**: S3, API log analysis  
-- **Tableau & Amazon QuickSight**: Dashboard building, embedded analytics  
-- **CRM & Finance Systems**: Zoho CRM/Desk, QuickBooks integration
+- **Snowflake** – Warehouse design, transformation logic, semantic modeling  
+- **AWS (Exposure)** – S3, API log analysis  
+- **Tableau & Amazon QuickSight** – Dashboarding and embedded analytics  
+- **CRM & Finance Systems** – Zoho CRM/Desk, QuickBooks integration  
 
 ### Strengths
-- End-to-end pipeline and system thinking  
-- Business-oriented data storytelling  
+- End-to-end pipeline thinking  
+- Dimensional modeling discipline  
 - Operational KPI framework design  
-- Cross-functional collaboration across technical and non-technical teams  
-
-### Technical Stack (At a Glance)
-
-- **Data & Warehouse**: Snowflake, SQL  
-- **Programming**: Python  
-- **Analytics & BI**: Tableau, Amazon QuickSight, Excel  
-- **Automation**: Python + Office (Excel/Word/PDF)  
-- **Collaboration**: GitHub, Jira, Google Workspace  
+- Cross-functional systems integration  
+- Data governance and reconciliation workflows  
 
 ---
 
 ## ⭐ Featured Projects {#projects}
 
-Below are selected projects that show how I build data systems end-to-end — from modeling and automation to business impact.
+Below are selected projects demonstrating end-to-end data system design — from modeling and automation to measurable business impact.
 
 ---
 
@@ -76,13 +68,13 @@ Below are selected projects that show how I build data systems end-to-end — fr
 
 **Tech Stack**: Snowflake, SQL, Python, Excel, Word, PDF  
 
-- Built an end-to-end reporting system that:
-  - Extracts KPIs from Snowflake using parameterized SQL
-  - Populates Excel templates and charts
-  - Injects metrics and visuals into a Word report
-  - Exports final reports as PDF
-- Designed the workflow so it can be scheduled and reused across multiple customers.  
-- **Impact**: ~80% reduction in manual reporting time and consistent weekly insights for leadership.
+- Built a fully automated reporting system extracting KPIs via parameterized SQL  
+- Populated Excel templates and dynamic charts programmatically  
+- Injected metrics and visuals into structured Word reports  
+- Exported finalized documents as PDF for leadership distribution  
+- Designed for scheduling and reuse across multiple customers  
+
+**Impact**: ~80% reduction in manual reporting time and consistent, standardized weekly insights.
 
 ---
 
@@ -90,12 +82,11 @@ Below are selected projects that show how I build data systems end-to-end — fr
 
 **Tech Stack**: Snowflake, SQL, Excel  
 
-- Designed a standardized ROI framework across products:
-  - Intake completion vs visits
-  - Self-scheduling adoption and after-hours bookings
-  - Reminder effectiveness and message delivery
-- Modeled product usage data to quantify time savings, adoption, and potential revenue impact.  
-- **Impact**: Used in renewal and upsell conversations to show clear value by customer and product.
+- Designed a standardized ROI framework across products  
+- Modeled intake completion, scheduling adoption, reminder effectiveness, and engagement metrics  
+- Quantified time savings, product adoption, and revenue impact potential  
+
+**Impact**: Enabled structured renewal and upsell discussions backed by measurable product value.
 
 ---
 
@@ -103,10 +94,11 @@ Below are selected projects that show how I build data systems end-to-end — fr
 
 **Tech Stack**: SQL, Excel  
 
-- Audited SMS reminder content and segment usage at the customer level.  
-- Defined message templates with a ~150-character cap to minimize multi-segment texts.  
-- Identified and disabled 300+ inactive or unnecessary phone numbers.  
-- **Impact**: Reduced monthly SMS costs and standardized messaging behavior across customers.
+- Audited message content and SMS segment usage  
+- Standardized templates with a ~150-character optimization threshold  
+- Identified and disabled 300+ inactive or unnecessary phone numbers  
+
+**Impact**: Reduced monthly SMS costs and improved messaging consistency.
 
 ---
 
@@ -114,14 +106,11 @@ Below are selected projects that show how I build data systems end-to-end — fr
 
 **Tech Stack**: SQL, Excel, QuickBooks  
 
-- Built a reconciliation workflow to align:
-  - Provider counts in internal operational records
-  - CRM/contract details
-  - QuickBooks invoices  
-- Implemented business rules such as:
-  - MD vs. Midlevel classification
-  - FTE thresholds (e.g., >100 hours = 1.0 FTE; <100 hours = 0.5 FTE)  
-- **Impact**: Improved billing accuracy and reduced risk of underbilling or misclassification.
+- Built a reconciliation workflow aligning operational provider counts with CRM contracts and billing records  
+- Implemented classification logic and FTE thresholds for billing alignment  
+- Standardized reconciliation checkpoints across systems  
+
+**Impact**: Improved billing accuracy and reduced risk of underbilling or misclassification.
 
 ---
 
@@ -129,10 +118,11 @@ Below are selected projects that show how I build data systems end-to-end — fr
 
 **Tech Stack**: SQL, API Logs  
 
-- Analyzed 6 months of API usage across multiple systems.  
-- Identified high-volume endpoints, redundant patterns, and underutilized APIs.  
-- Recommended optimization opportunities for call patterns and cost reduction.  
-- **Impact**: Provided engineering and leadership with data to tune API usage and manage spend.
+- Analyzed six months of API usage across multiple systems  
+- Identified high-volume endpoints and redundant call patterns  
+- Proposed optimization opportunities for improved cost efficiency  
+
+**Impact**: Supported engineering decision-making and API cost governance.
 
 ---
 
@@ -140,12 +130,12 @@ Below are selected projects that show how I build data systems end-to-end — fr
 
 **Tech Stack**: Snowflake, SQL  
 
-- Designed scalable fact and dimension models supporting multi-customer analytics within a shared warehouse environment.  
-- Implemented time-aware dimensional joins (SCD Type 1 / Type 2 patterns) to preserve historical attribution across changing provider and customer attributes.  
-- Structured layered transformations (staging → intermediate → mart) to ensure governed and reusable downstream datasets.  
-- Enforced tenant-aware filtering and modeling discipline to enable secure cross-customer benchmarking without data duplication.  
+- Designed scalable fact and dimension models supporting multi-customer analytics  
+- Implemented time-aware joins (SCD Type 1 / Type 2 patterns) for historical attribution  
+- Structured layered transformations (staging → intermediate → mart)  
+- Enforced tenant-aware modeling discipline for secure benchmarking  
 
-**Impact**: Improved query performance, reduced transformation redundancy, and strengthened data governance across analytics workloads.
+**Impact**: Improved query performance, reduced redundancy, and strengthened governance.
 
 ---
 
@@ -153,12 +143,12 @@ Below are selected projects that show how I build data systems end-to-end — fr
 
 **Tech Stack**: Snowflake, SQL, Python  
 
-- Designed incremental load logic using deterministic watermark tracking and overlapping load windows.  
-- Implemented merge-based upsert patterns to support safe reruns and eliminate duplicate record risks.  
-- Built validation checks for row counts, duplicate detection, and late-arriving data handling.  
-- Structured pipeline control tables to track execution state, load metadata, and recovery checkpoints.  
+- Designed incremental loads with deterministic watermark tracking  
+- Implemented merge-based upsert logic for safe reruns  
+- Built validation checks for duplicates and late-arriving data  
+- Structured control tables to track pipeline state and recovery checkpoints  
 
-**Impact**: Increased reliability of daily ETL processes and reduced operational recovery time during pipeline reruns.
+**Impact**: Increased reliability of daily pipelines and reduced recovery time.
 
 ---
 
@@ -166,12 +156,12 @@ Below are selected projects that show how I build data systems end-to-end — fr
 
 **Tech Stack**: Snowflake, SQL  
 
-- Designed automated validation logic across CRM, billing, and operational data sources.  
-- Implemented deterministic mismatch detection rules for status alignment, provider counts, and revenue attribution.  
-- Created daily reconciliation snapshots to monitor cross-system drift trends over time.  
-- Built exception reporting views to support structured resolution workflows across stakeholders.  
+- Built automated validation logic across CRM, billing, and operational systems  
+- Implemented deterministic mismatch detection rules  
+- Generated daily reconciliation snapshots to monitor system drift  
+- Created structured exception reporting views  
 
-**Impact**: Improved trust in financial and operational reporting while reducing reconciliation-related manual effort.
+**Impact**: Improved trust in financial and operational reporting.
 
 ---
 
@@ -179,55 +169,55 @@ Below are selected projects that show how I build data systems end-to-end — fr
 
 **Tech Stack**: Snowflake, SQL  
 
-- Analyzed warehouse metering and query history to identify high-cost workloads and scan inefficiencies.  
-- Segmented compute warehouses by workload type (ETL, BI, ad hoc) to improve cost isolation and performance stability.  
-- Optimized filtering and aggregation strategies to improve partition pruning and reduce full-table scans.  
-- Implemented right-sizing and auto-suspend policies to control idle compute consumption.  
+- Analyzed warehouse metering and query history to identify cost inefficiencies  
+- Segmented compute by workload type (ETL, BI, ad hoc)  
+- Optimized filtering and aggregation strategies to reduce full scans  
+- Implemented right-sizing and auto-suspend policies  
 
-**Impact**: Increased compute efficiency and improved long-term cost predictability across analytics operations.
+**Impact**: Improved compute efficiency and long-term cost predictability.
 
 ---
 
 ## ✍️ Articles & Technical Writing {#articles}
 
-I document my thinking through blog-style posts hosted within this site:
+I publish technical writing exploring data modeling, architecture decisions, automation strategies, and governance patterns.
 
-{% assign sorted_posts = site.posts %}
-{% for post in sorted_posts %}
-- [{{ post.title }}]({{ post.url | prepend: site.baseurl | prepend: site.url }})
+{% for post in site.posts %}
+- [{{ post.title }}]({{ post.url | relative_url }})
 {% endfor %}
 
 Topics include:
 
-- My workflow as an Analytics Engineer (semantic views + automation)  
-- SMS message optimization using SQL  
-- Lightweight reminder audit systems  
-- Provider count frameworks for billing  
-- Self-scheduling funnel drop-off reporting  
-- Reconciliation frameworks across CRM, billing, and operational systems  
-- Automating reporting using Snowflake + Python + Word  
+- Multi-tenant warehouse design  
+- Incremental vs CDC trade-offs  
+- Idempotent pipeline design  
+- Behavioral fact & dimension modeling  
+- Cross-system reconciliation frameworks  
+- Snowflake cost optimization  
+- Automation with Snowflake + Python  
 
 ---
 
-## 🎯 Location & Career Goals
+## 🎯 Location & Career Direction
 
 - **Location**: New York City (open to hybrid and remote roles)  
-- **Short-Term Goals**:
-  - Strengthen Python-based automation and orchestration  
-  - Build more production-style Snowflake + Python projects on GitHub  
-- **Long-Term Goals**:
-  - Grow into a **Senior Data Engineer / Analytics Engineer** role  
-  - Lead data systems that connect operations, finance, product, and customer success  
+- **Current Focus**:
+  - Production-grade Snowflake + Python pipelines  
+  - Data quality and reconciliation systems  
+  - Scalable analytics engineering patterns  
+- **Career Direction**:
+  - Senior Data Engineer / Analytics Engineer  
+  - Platform-oriented data system ownership  
+  - Cross-functional data infrastructure leadership  
 
 ---
 
-## 📁 Contact & Access {#contact}
+## 📁 Contact {#contact}
 
-- **Resume**: Available upon request  
 - **LinkedIn**: [linkedin.com/in/gunabhiram](https://www.linkedin.com/in/gunabhiram)  
 - **GitHub**: [github.com/gunabhiram](https://github.com/gunabhiram)  
 - **Email**: [gunabhiram.billa@gmail.com](mailto:gunabhiram.billa@gmail.com)
 
 ---
 
-*Let’s build data systems that drive real outcomes, not just dashboards.*
+*Building data systems that drive operational clarity — not just dashboards.*
