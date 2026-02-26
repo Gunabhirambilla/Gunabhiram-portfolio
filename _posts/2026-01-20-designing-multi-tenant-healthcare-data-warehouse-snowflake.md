@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Designing a Multi-Tenant Healthcare Data Warehouse in Snowflake"
-date: 2025-08-15
+date: 2026-01-20
 categories: data-engineering snowflake architecture healthcare
 ---
 
