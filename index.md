@@ -178,6 +178,20 @@ Below are selected projects demonstrating end-to-end data system design — from
 
 ---
 
+### 10. UrgentIQ Visit Status Pipeline & Event Analytics Framework
+
+**Tech Stack**: Python, SQL, Snowflake, API Integration  
+
+- Designed and built an event-driven pipeline to process UrgentIQ API visit status data  
+- Normalized visit status timelines (Status 1 → N) with gap-filling logic for missing transitions  
+- Standardized timestamps (UTC → EST) to ensure consistent analytics  
+- Developed transition duration analysis (e.g., Status 1→2, 2→3) to identify operational delays  
+- Implemented a reusable incremental ingestion framework with deduplication and configurable schema mapping  
+
+**Impact**: Eliminated manual lifecycle analysis, enabled scalable ingestion of API event data, and improved visibility into visit flow and operational bottlenecks  
+
+---
+
 ## ✍️ Articles & Technical Writing {#articles}
 
 I publish technical writing exploring data modeling, architecture decisions, automation strategies, and governance patterns.
